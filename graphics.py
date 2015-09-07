@@ -161,7 +161,7 @@ except:
    import Tkinter as tk
 
 
-COLORLIST = ["orange", "yellow", "purple", "cyan", "lightgreen", "gray"]
+COLORLIST = ["blue", "purple", "orange", "cyan", "lightgreen", "gray"]
 #COLORLIST = ["black", "blue", "brown", "cyan", "gray", "green", "orange", "purple", "red", "white", "yellow"]
 ##########################################################################
 # Module Exceptions
