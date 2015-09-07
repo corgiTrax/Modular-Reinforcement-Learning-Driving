@@ -51,9 +51,9 @@ TARGET = 2
 # module1: avoid offroad
 # module2: go to target
 COLLECTABLES= [True, False, True]
-UNIT_REWARDS = [-1,-1,1]
-WEIGHTS = [10,2,5]
-GAMMAS = [0.2, 0.1, 0.8]
+UNIT_REWARDS = [1,-1,1]
+WEIGHTS = [5,2,10]
+GAMMAS = [0.4, 0.1, 0.9]
 NUM_INSTS = [MAZE_ROW*MAZE_COL/10,MAZE_COL * 2,1]
 RAND_GENS = [False,False,False]
 
@@ -62,5 +62,5 @@ RECORDING = True
 
 '''Graphic visualization'''
 #Maze cell size in pixel, everything else depends on this
-CELL_SIZE = 20
+CELL_SIZE = 12
 
